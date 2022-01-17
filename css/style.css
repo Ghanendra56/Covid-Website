@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
 
 :root{
-    --blue:#3c6382;
+    --red:#ff0000;
     --dark-blue:#0a3d62;
 }
 
@@ -34,7 +34,7 @@ section{
 
 .heading{
     text-align: center;
-    color:var(--blue);
+    color:var(--red);
     font-size: 3.5rem;
     text-transform: uppercase;
     font-weight: normal;
@@ -58,7 +58,7 @@ header .logo{
 }
 
 header .logo span{
-    color:var(--blue);
+    color:var(--red);
 }
 
 header .navbar a{
@@ -71,7 +71,7 @@ header .navbar a{
 
 header .navbar a.active,
 header .navbar a:hover{
-    background: var(--blue);
+    background: var(--red);
     color:#fff;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
@@ -83,7 +83,7 @@ header.sticky{
 
 #menu{
     font-size: 3rem;
-    color:var(--blue);
+    color:var(--red);
     cursor: pointer;
     display: none;
 }
@@ -107,7 +107,7 @@ header.sticky{
 
 .home .content h3{
     font-size: 4rem;
-    color:var(--blue);
+    color:var(--red);
     font-weight: normal;
 }
 
@@ -115,7 +115,7 @@ header.sticky{
     display: inline-block;
     padding:.7rem 3rem;
     color:#fff;
-    background:var(--blue);
+    background:var(--red);
     border-radius: .5rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     margin-top: 1rem;
@@ -147,7 +147,7 @@ header.sticky{
 }
 
 .prevent .box-container .box h3{
-    color:var(--blue);
+    color:var(--red);
     font-size: 2rem;
 }
 
@@ -197,7 +197,7 @@ header.sticky{
 
 .symptoms .column .box-container .box h3{
     font-size: 2rem;
-    color:var(--blue);
+    color:var(--red);
 }
 
 .precautions .column{
@@ -218,7 +218,7 @@ header.sticky{
     padding:1.5rem .5rem;
     text-align: center;
     font-size: 2.5rem;
-    background:var(--blue);
+    background:var(--red);
     color:#fff;
 }
 
@@ -240,7 +240,7 @@ header.sticky{
 
 .precautions .column .box-container .box h3{
     font-size: 2rem;
-    color:var(--blue);
+    color:var(--red);
 }
 
 .precautions .column .box-container .box p{
@@ -280,12 +280,12 @@ header.sticky{
     height:20rem;
     width:20rem;
     object-fit: cover;
-    background:var(--blue);
+    background:var(--red);
 }
 
 .doctor .box-container .box h3{
     font-size: 2rem;
-    color:var(--blue);
+    color:var(--red);
 }
 
 .doctor .box-container .box span{
@@ -307,11 +307,11 @@ header.sticky{
     font-size: 2rem;
     margin: .4rem;
     background:#eee;
-    color:var(--blue);
+    color:var(--red);
 }
 
 .doctor .box-container .box .share a:hover{
-    background:var(--blue);
+    background:var(--red);
     color:#fff;
     transform: rotate(360deg);
 }
@@ -345,7 +345,7 @@ header.sticky{
 
 .hand-wash .column .box-container .box h3{
     font-size: 2rem;
-    color:var(--blue);
+    color:var(--red);
 }
 
 .footer{
@@ -367,7 +367,7 @@ header.sticky{
 
 .footer .box-container .box h3{
     font-size: 2.5rem;
-    color:var(--blue);
+    color:var(--red);
     padding:1rem 0;
 }
 
@@ -398,7 +398,7 @@ header.sticky{
 }
 
 .footer .credit a{
-    color:var(--blue);
+    color:var(--red);
 }
 
 .scroll-top{
